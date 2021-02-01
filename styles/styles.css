@@ -1,0 +1,61 @@
+h3 {
+  color: rgba(200, 100, 250, .5);
+}
+
+p {
+  color: rgba(250, 250, 100);
+}
+
+body {
+  background-color: rgba(200, 200, 250);
+}
+.purple-text {
+   color: rgba(200, 100, 250, .5);
+}
+.important {
+  font-weight:bold;
+}
+.important:hover {
+  background-color: rgb(160, 200, 250);
+}
+#lead-paragraph {
+  color: purple;
+  font-weight: normal;
+}
+a[href="index.html"] {
+  padding: 0.05rem;
+  background-color: rgb(160, 200, 250);
+}
+a[href="secondpage.html"] {
+  padding: 0.05rem;
+  background-color: rgb(160, 200, 250);
+}
+
+a[href="semantic-elements-lesson-2.html"] {
+  padding: 0.05rem;
+  background-color: rgb(160, 200, 250);
+}
+a[href="future-assignment-number-3.html"] {
+padding: 0.05rem;
+  background-color: rgb(160, 200, 250);
+}
+a[href="future-assignment-number-4.html"] {
+padding: 0.05rem;
+  background-color: rgb(160, 200, 250);
+}
+
+h1 {
+  color: purple;
+  border-style: solid;
+  border-width: 15px;
+  border-color: rgb(160, 200, 250);
+}
+p.important {
+  width: 50%;
+}
+img {
+  border-style: groove;
+  border-width: 5px;
+  border-color: rgb(250, 250, 100);
+  width: 18%;
+}
