@@ -1,5 +1,18 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h3 {
   color: rgba(200, 100, 250, .5);
+  font-size: 100%;
+}
+
+aside h3 {
+  font-size: 200%;
 }
 
 p {
@@ -44,18 +57,47 @@ padding: 0.05rem;
   background-color: rgb(160, 200, 250);
 }
 
+
+
 h1 {
   color: purple;
   border-style: solid;
   border-width: 15px;
   border-color: rgb(160, 200, 250);
+  font-family: 'Open Sans', sans-serif;
 }
 p.important {
   width: 50%;
 }
 img {
-  border-style: groove;
+  border-style: dotted;
   border-width: 5px;
   border-color: rgb(250, 250, 100);
-  width: 18%;
+  width: 20%;
+}
+
+.front-page {
+  background: pink;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border-style: groove;
+  border-color: white;
+}
+
+article {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.fa-tree {
+  color: white;
+}
+
+.fa-mountain {
+  color:grey;
 }
