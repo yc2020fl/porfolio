@@ -200,7 +200,7 @@ fieldset input {
   background-color: rgba(250, 90, 110, 0.4);
 }
 
-/* When a checkbox is checked, add a blue background */
+/* When a checkbox is checked, add a pink background */
 .checkbox input:checked ~ .boxcheckmark {
   background-color: rgba(250, 90, 110, 0.6)
 }
@@ -229,11 +229,6 @@ fieldset input {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-
-
-
-
-
 
 
 /* Create a custom radio button */
